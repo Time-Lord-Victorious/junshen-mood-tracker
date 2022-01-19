@@ -1,4 +1,4 @@
-<script>
+<script> 
     import supabase from '$lib/db';
     import { page, session } from '$app/stores';
     import { browser } from '$app/env';
@@ -19,12 +19,12 @@
 
     function redirect() {
    	 // login redirect
-   	 if ($session && $page.path === '/login') {
+   	 if ($session && $page.url.pathname === '/login') {
    		 goto('/');
    	 }
 
    	 // logout redirect
-   	 if (!$session && $page.path === '/') {
+   	 if (!$session && $page.url.pathname === '/') {
    		 goto('/login');
    	 }
     }
