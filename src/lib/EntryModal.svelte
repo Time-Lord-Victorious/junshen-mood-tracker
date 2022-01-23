@@ -13,7 +13,7 @@
 
     let day = '1';
     let month = '1';
-    let year = '2021';
+    let year = '2022';
     let mood = 'Okay';
     let comment = 'This is a comment';
 
