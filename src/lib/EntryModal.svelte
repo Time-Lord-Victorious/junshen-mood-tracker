@@ -2,14 +2,14 @@
     import supabase from '$lib/db';
 
     let emojiList = {
-   	 worst: '😭',
-   	 bad: '🙁',
-   	 okay: '😐',
-   	 good: '🙂',
-   	 best: '😁'
+   	 worst: '😡',
+   	 bad: '😣',
+   	 okay: '🧐',
+   	 good: '😎',
+   	 best: '🥳'
     };
 
-    let emoji = '😐';
+    let emoji = '🧐';
 
     let day = '1';
     let month = '1';
