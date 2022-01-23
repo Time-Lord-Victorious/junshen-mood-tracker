@@ -78,7 +78,7 @@
    							 class="form-control"
    							 id="yearInput"
    							 bind:value={year}
-   							 min="2021"
+   							 min="2022"
    						 />
    						 <label for="yearInput">Year</label>
    					 </form>
@@ -103,7 +103,7 @@
    							 mood = 'Worst';
    						 }}
    					 />
-   					 <label class="btn btn-outline-danger" for="worst">Worst</label>
+   					 <label class="btn btn-outline-danger" for="worst">WORST!!!</label>
 
    					 <input
    						 type="radio"
@@ -116,7 +116,7 @@
    							 mood = 'Bad';
    						 }}
    					 />
-   					 <label class="btn btn-outline-warning" for="bad">Bad</label>
+   					 <label class="btn btn-outline-warning" for="bad">Eww...it's bad</label>
 
    					 <input
    						 type="radio"
@@ -130,7 +130,7 @@
    							 mood = 'Okay';
    						 }}
    					 />
-   					 <label class="btn btn-outline-primary" for="okay">Okay</label>
+   					 <label class="btn btn-outline-primary" for="okay">Okay-ish...I guess</label>
 
    					 <input
    						 type="radio"
@@ -143,7 +143,7 @@
    							 mood = 'Good';
    						 }}
    					 />
-   					 <label class="btn btn-outline-info" for="good">Good</label>
+   					 <label class="btn btn-outline-info" for="good">Good!</label>
 
    					 <input
    						 type="radio"
@@ -156,7 +156,7 @@
    							 mood = 'Best';
    						 }}
    					 />
-   					 <label class="btn btn-outline-success" for="best">Best</label>
+   					 <label class="btn btn-outline-success" for="best">Excellent!!!</label>
    				 </div>
    			 </div>
 
